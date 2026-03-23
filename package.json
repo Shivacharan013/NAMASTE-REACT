@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivacharan013/NAMASTE-REACT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivacharan013/NAMASTE-REACT/issues"
+  },
+  "homepage": "https://github.com/Shivacharan013/NAMASTE-REACT#readme",
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsweslist": [
+    "last 2 Chrome version",
+    "last 2 Safari version",
+    "last 2 Firefox version",
+    "last 2 Edge version"
+  ]
+}
