@@ -1,3 +1,58 @@
-#heading{ 
-    color: red;
+* {
+    box-sizing: border-box;
+}  
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+   
+}
+.logo{ 
+    width: 120px;
+    vertical-align: middle;
+    height: 100px;
+
+}
+.nav-items >ul{
+    font-size: 24px;
+    display: flex;
+    padding: 0px 20px;
+   
+}
+.nav-items > ul >li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card {
+    width: 180px;
+    height: auto; /* Adjusts height based on content */
+    border: 1px solid black;
+    padding: 0; /* Removes padding to ensure no space inside the card */
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card h3, .res-card h4 {
+    margin: 5px 0; /* Adds vertical spacing */
+}
+.res-card:hover {
+    cursor: pointer;
+    border: 2px solid #000; /* Slightly thicker border on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+search{
+    padding: 10px;
+}
+.res-logo {
+    width: 100%; /* Makes the image take the full width of the card */
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    display: block; /* Removes any inline spacing caused by the image */
+    border-radius: 8px 8px 0 0; /* Optional: Matches the card's border radius */
 }
